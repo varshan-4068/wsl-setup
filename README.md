@@ -12,7 +12,7 @@ After installing the terminal open it as a powershell profile (by default window
   
     wsl --install -d <distroname>  # pick a distro from the above command and install it with this command
 
-Now after the installation is completed you should exit and reopen the terminal with wsl.exe command and follow the steps given below acoording to the distribution you have installed..
+Now after the installation is completed you should exit and reopen the terminal with wsl.exe command and follow the steps given below according to the distribution you have installed..
 
 <b> *Archlinux* </b>
 
@@ -38,7 +38,7 @@ Exit the powershell and now open the windows terminal and type wsl.exe Boom! you
 
 That's it now u can install the pacman packages that you needed to be in your wsl..
 
-I hoped i explained it in detail with proper explanation...
+I hope i explained it in detail with proper explanation But if u want a perfect non detailed Setup Check down the Summary Section Below...
 _____________________________________________________________________________________________________________________________________________________________
 *Summary*
 
@@ -66,6 +66,6 @@ ________________________________________________________________________________
 
     sudo pacman -S (needed packages to install) --> In wsl 
 
-Recommneded Packages : neovim base base-devel yazi fzf zoxide eza bash-completion git npm paru(AUR Helper)
+Recommneded Packages : neovim base base-devel yazi fzf zoxide eza bash-completion git npm paru(AUR Helper) gcc wget curl unzip 
 
 
