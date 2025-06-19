@@ -65,10 +65,14 @@ ________________________________________________________________________________
 
     wsl --manage archlinux --set-default-user <username>  # this command helps wsl to open bash shell with created user for example izagi instead of a root user    --> In powershell 
 
-    sudo pacman -Sy  # it will ask for sudo password enter your's and update the pacman  --> In wsl 
+    sudo pacman -Sy archlinux-keyring base-devel   # it will ask for sudo password enter your's and update the pacman  --> In wsl 
+
+    sudo pacman -Su --> In wsl 
 
     sudo pacman -S (needed packages to install) --> In wsl 
 
-Recommneded Packages : neovim base base-devel yazi fzf zoxide eza bash-completion git npm gcc wget curl unzip 
+Recommended Packages : neovim base base-devel yazi fzf zoxide eza bash-completion git npm gcc wget curl unzip 
+
+To Install My Neovim Setup Checkout my [Neovim-Setup Repo](https://github.com/varshan-4068/Neovim-Setup.git) and Enjoy Using and Learning it...
 
 
