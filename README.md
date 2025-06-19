@@ -66,6 +66,6 @@ ________________________________________________________________________________
 
     sudo pacman -S (needed packages to install) --> In wsl 
 
-Recommneded Packages : neovim base base-devel yazi fzf zoxide eza bash-completion git npm paru(AUR Helper) gcc wget curl unzip 
+Recommneded Packages : neovim base base-devel yazi fzf zoxide eza bash-completion git npm gcc wget curl unzip 
 
 
