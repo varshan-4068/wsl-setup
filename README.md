@@ -4,7 +4,10 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
 WSL is an now an open sourced project by Microsoft (Didin't expected to be open sourced by microsoft lol)
 
-To install wsl the terminal is required and windows 11 ships with a default terminal named windows terminal so just delete it and install windows terminal preview through microsoft store because this terminal ships with the latest new features when compared with windows terminal
+The Windows Subsystem for Linux (WSL) lets developers install a Linux distribution (such as Ubuntu, Debian, Arch Linux, Kali, etc) and use Linux applications, utilities, and Bash command-line tools directly on Windows, unmodified, without the virtual machine or dualboot setup.
+
+> [!Tip]
+> To install wsl a Terminal is required and windows 11 ships with a default terminal named windows terminal so just delete it and install windows terminal preview through microsoft store because this terminal ships with the latest new features when compared with windows terminal
 
 After installing the terminal open it as a powershell profile (by default windows terminal opens it so need to worry )and type the commands given below :
 
