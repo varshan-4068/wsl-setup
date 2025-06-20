@@ -5,9 +5,15 @@
 
 Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
-WSL is an now an open sourced project by Microsoft (Didin't expected to be open sourced by microsoft lol)
+<details>
 
-The Windows Subsystem for Linux (WSL) lets developers install a Linux distribution (such as Ubuntu, Debian, Arch Linux, Kali, etc) and use Linux applications, utilities, and Bash command-line tools directly on Windows, unmodified, without the virtual machine or dualboot setup.
+<summary> WSL </summary>
+
+- WSL is an now an open sourced project by Microsoft (Didin't expected to be open sourced by microsoft lol)
+
+- The Windows Subsystem for Linux (WSL) lets developers install a Linux distribution (such as Ubuntu, Debian, Arch Linux, Kali, etc) and use Linux applications, utilities, and Bash command-line tools directly on Windows, unmodified, without the virtual machine or dualboot setup.
+
+</details>
 
 > [!Tip]
 > To install wsl a Terminal is required and windows 11 ships with a default terminal named windows terminal so just delete it and install windows terminal preview through microsoft store because this terminal ships with the latest new features when compared with windows terminal
