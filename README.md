@@ -134,7 +134,7 @@ To Install My Neovim Setup Checkout my [Neovim-Setup Repo](https://github.com/va
 
 <details>
 
-<summary> 💥My Setup </summary>
+<summary> My Setup </summary>
 
     sudo pacman -S base base-devel bash-completion eza fastfetch fzf zoxide gcc git unzip wget curl npm htop starship trash-cli unzip nvim 
 
