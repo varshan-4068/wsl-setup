@@ -1,5 +1,8 @@
 # *WSL*
 
+![](https://img.shields.io/github/last-commit/varshan-4068/wsl-setup?&style=for-the-badge&color=FFB1C8&logoColor=D9E0EE&labelColor=292324)
+![](https://img.shields.io/github/repo-size/varshan-4068/wsl-setup?color=CAC992&label=SIZE&logo=googledrive&style=for-the-badge&logoColor=D9E0EE&labelColor=292324)
+
 Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
 WSL is an now an open sourced project by Microsoft (Didin't expected to be open sourced by microsoft lol)
