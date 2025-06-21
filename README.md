@@ -42,7 +42,7 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
       usermod -aG wheel <username>  # this command is used to modify your user for example the user izagi as a sudo user
 
-      pacman -S sudo archlinux-keyring base-devel vim
+      pacman -S sudo archlinux-keyring base-devel vim vi 
     
       visudo  # Opens the sudoers file and you need to uncomment the line  %wheel ALL=(ALL) ALL by erasing the # in thae opened sudoers file now after uncommenting save the file and exit with :wq 
 
@@ -78,11 +78,9 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
       wsl.exe --> In powershell 
     
-      useradd <your preferred user>  # here replace <your preferred user> with the user name you wanna create for example useradd izagi --> In wsl
+      useradd -m -G wheel -s /bin/bash <your preferred user>  # here replace <your preferred user> with the user name you wanna create for example useradd izagi --> In wsl
 
-      passwd <username>  # if u have created a user as for example izagi with the above command then to create a user password for the user izagi use this command --> In wsl 
-
-      usermod -aG wheel <username>  # this command is used to modify your user for example the user izagi as a sudo user --> In wsl
+      passwd <username>  # if u have created a user as for example izagi with the above command then to create a user password for the user izagi use this command --> In wsl
     
       visudo  # Opens the sudoers file and you need to uncomment the line  %wheel ALL=(ALL) ALL by erasing the # in thae opened sudoers file now after uncommenting save the file and exit with :wq    --> In wsl
 
