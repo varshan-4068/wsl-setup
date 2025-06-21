@@ -42,7 +42,7 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
       usermod -aG wheel <username>  # this command is used to modify your user for example the user izagi as a sudo user
 
-      pacman -S sudo
+      pacman -S sudo archlinux-keyring base-devel 
     
       visudo  # Opens the sudoers file and you need to uncomment the line  %wheel ALL=(ALL) ALL by erasing the # in thae opened sudoers file now after uncommenting save the file and exit with :wq 
 
