@@ -69,7 +69,7 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
 - Uninstall Windows Terminal and Install Windows Terminal Preview app from microsoft store..
 
-       wsl --list --online  # gives you the list of available distros for to be installed in the wsl  --> In powershell 
+      wsl --list --online  # gives you the list of available distros for to be installed in the wsl  --> In powershell 
   
       wsl --install -d <distroname>  # pick a distro from the above command and install it with this command --> In powershell 
 
@@ -85,8 +85,8 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
       wsl --manage archlinux --set-default-user <username>  # this command helps wsl to open bash shell with created user for example izagi instead of a root user    --> In powershell 
 
-      sudo pacman -Sy archlinux-keyring base-devel   # it will ask for sudo password enter your's and update the pacman  --> In wsl 
-
+      sudo pacman -Sy archlinux-keyring base-devel vim vi
+  
       sudo pacman -Su --> In wsl 
 
       sudo pacman -S (needed packages to install) --> In wsl 
