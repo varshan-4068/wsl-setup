@@ -143,7 +143,7 @@ To Install My Neovim Setup Checkout my [Neovim-Setup Repo](https://github.com/va
 
     cd ~
 
-    rm paru-bin 
+    rm paru/ 
 
     paru -S python-pywal16 
 
