@@ -36,12 +36,10 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
 - If you have installed archlinux then type ``wsl -d archlinux`` in your windows terminal and you would be entering into the bash(a default shell in linux) environment of linux as a root user so to add a sudo user and open wsl as sudo user follow the commands mentioned below : 
     
-      useradd <your preferred user>  # here replace <your preferred user> with the user name you wanna create for example useradd izagi
+      useradd -m -aG wheel -s /bin/bash <your preferred user>  # here replace <your preferred user> with the user name you wanna create for example useradd izagi
 
-      passwd <username>  # if u have created a user as for example izagi with the above command then to create a user password for the user izagi use this command 
-
-      usermod -aG wheel <username>  # this command is used to modify your user for example the user izagi as a sudo user
-
+      passwd <username>  # if u have created a user as for example izagi with the above command then to create a user password for the user izagi use this command
+  
       pacman -S sudo archlinux-keyring base-devel vim vi 
     
       visudo  # Opens the sudoers file and you need to uncomment the line  %wheel ALL=(ALL) ALL by erasing the # in thae opened sudoers file now after uncommenting save the file and exit with :wq 
@@ -54,12 +52,11 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
 - Exit the powershell and now open the windows terminal and type wsl.exe Boom! you have been logged in as the created user with sudo previlegies instead of a root user. So after this type the command given below :
 
-      cd ~
+
       vim ~/.bash_profile   # add the code given below in the opened file and save it with the command :wq 
 
       if [[ -f ~/.bashrc ]]; then   # Add these lines in the ~/.bash_profile file 
           ~/.bashrc
-          cd ~
       fi
   
       sudo pacman -Sy  # it will ask for sudo password enter your's and update the pacman 
