@@ -89,7 +89,9 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
   
       sudo pacman -Su --> In wsl 
 
-      sudo pacman -S (needed packages to install) --> In wsl 
+      sudo pacman -S (needed packages to install) --> In wsl
+
+      localedef -i en_US -f UTF-8 en_US.UTF-8
 
 Recommended Packages : neovim base base-devel yazi fzf zoxide eza bash-completion git npm gcc wget curl unzip 
 
@@ -152,5 +154,7 @@ To Install My Neovim Setup Checkout my [Neovim-Setup Repo](https://github.com/va
     vim .bashrc 
 
     (cat .cache/wal/sequences)&  # Add this line in your .bashrc that's it save it using :wq and reopen your wsl boom ! u have your wallpaper colors in your terminal this is optional if you want you can set it up or else skip it..
+
+    localedef -i en_US -f UTF-8 en_US.UTF-8
     
 </details>
