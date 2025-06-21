@@ -40,7 +40,9 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
       passwd <username>  # if u have created a user as for example izagi with the above command then to create a user password for the user izagi use this command 
 
-      usermod -aG wheel <username>  # this command is used to modify your user for example the user izagi as a sudo user 
+      usermod -aG wheel <username>  # this command is used to modify your user for example the user izagi as a sudo user
+
+      pacman -S sudo
     
       visudo  # Opens the sudoers file and you need to uncomment the line  %wheel ALL=(ALL) ALL by erasing the # in thae opened sudoers file now after uncommenting save the file and exit with :wq 
 
