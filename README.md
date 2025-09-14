@@ -9,7 +9,7 @@ Hey there i am Sirivarshan K and welcome to the world of wsl let's get started..
 
 <summary> WSL </summary>
 
-- WSL is an now an open sourced project by Microsoft (Didin't expected to be open sourced by microsoft lol)
+- WSL is an now an open sourced project by Microsoft (Didn't expected to be open sourced by microsoft lol)
 
 - The Windows Subsystem for Linux (WSL) lets developers install a Linux distribution (such as Ubuntu, Debian, Arch Linux, Kali, etc) and use Linux applications, utilities, and Bash command-line tools directly on Windows, unmodified, without the virtual machine or dualboot setup.
 
